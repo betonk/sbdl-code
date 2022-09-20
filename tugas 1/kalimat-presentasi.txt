@@ -1,2 +1,22 @@
-Assalamu'alaikum. Wr. Wb.
+Assalamu'alaikum. Wr. Wb. salam sejahtera untuk kita semua, Terima kasih telah memberikan kesempatan kepada saya untuk menjelaskan dan mempresentasikan tugas Sistem Basis Data Lanjutan mengenai JSON Object & JSON Array. Sebelumnya perkenalkan saya ahmad fathon dari prodi sistem informasi 2019.
+Pada tugas ini saya menggunakan Javascript sebagai proses sistem, Bootstrap sebagai framework css dan HTML sebagai kerangka website
 
+Berikut code yang saya buat dengan nama file tugas_1.html dan berikut hasilnya
+
+Selanjutnya saya akan menjelaskan code – code yang membuat website tersebut.
+
+Pada tag link ini, memanggil framework css untuk memperindah website tersebut.
+
+selanjutnya tag div yang berisikan class container, merupakan fungsi untuk membatasi konten dari pojok kanan dan kiri agar tidak melebihi batas yang ditentukan.
+
+Berikut code penting dalam website tersebut.
+
+Selanjutnya pada proses, saya membuat variable data yang berisikan sebuah data – data berbentuk array yang berasal dari website open data Jakarta. Dan berikut data tersebut.
+
+Berikutnya variable tbl, yang merupakan variabel untuk menarik element id pada tag table
+
+Lalu, variable tblbody, berfungsi membuat tag tbody pada html
+
+Selanjutnya adalah “for”, yang berfungsi sebagai pengulangan dengan mengambil seluruh teks pada variable data.
+
+Variable row berfungsi membuat element tag “tr” setelah tag “tbody”
