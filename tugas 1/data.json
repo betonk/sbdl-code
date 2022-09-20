@@ -1,0 +1,142 @@
+[
+    {
+    "tahun": 2007,
+    "jenis_penyakit": "Malaria",
+    "jumlah": 77
+    },
+    {
+    "tahun": 2007,
+    "jenis_penyakit": "Gastro Enteritis",
+    "jumlah": 213247
+    },
+    {
+    "tahun": 2007,
+    "jenis_penyakit": "Kholera/Cholera",
+    "jumlah": 1028
+    },
+    {
+    "tahun": 2007,
+    "jenis_penyakit": "Kusta/Leprosy",
+    "jumlah": 489
+    },
+    {
+    "tahun": 2007,
+    "jenis_penyakit": "TBC/Tuberculosis",
+    "jumlah": 35240
+    },
+    {
+    "tahun": 2007,
+    "jenis_penyakit": "Demam Berdarah DHF",
+    "jumlah": 33828
+    },
+    {
+    "tahun": 2007,
+    "jenis_penyakit": "Radang Tenggorokan Dipteria",
+    "jumlah": 2
+    },
+    {
+    "tahun": 2008,
+    "jenis_penyakit": "Malaria",
+    "jumlah": 68
+    },
+    {
+    "tahun": 2008,
+    "jenis_penyakit": "Gastro Enteritis",
+    "jumlah": 9593
+    },
+    {
+    "tahun": 2008,
+    "jenis_penyakit": "Kholera/Cholera",
+    "jumlah": 0
+    },
+    {
+    "tahun": 2008,
+    "jenis_penyakit": "Kusta/Leprosy",
+    "jumlah": 901
+    },
+    {
+    "tahun": 2008,
+    "jenis_penyakit": "TBC/Tuberculosis",
+    "jumlah": 22506
+    },
+    {
+    "tahun": 2008,
+    "jenis_penyakit": "Demam Berdarah DHF",
+    "jumlah": 28373
+    },
+    {
+    "tahun": 2008,
+    "jenis_penyakit": "Radang Tenggorokan Dipteria",
+    "jumlah": 9
+    },
+    {
+    "tahun": 2009,
+    "jenis_penyakit": "Malaria",
+    "jumlah": 71
+    },
+    {
+    "tahun": 2009,
+    "jenis_penyakit": "Gastro Enteritis",
+    "jumlah": 10349
+    },
+    {
+    "tahun": 2009,
+    "jenis_penyakit": "Kholera/Cholera",
+    "jumlah": 0
+    },
+    {
+    "tahun": 2009,
+    "jenis_penyakit": "Kusta/Leprosy",
+    "jumlah": 0
+    },
+    {
+    "tahun": 2009,
+    "jenis_penyakit": "TBC/Tuberculosis",
+    "jumlah": 0
+    },
+    {
+    "tahun": 2009,
+    "jenis_penyakit": "Demam Berdarah DHF",
+    "jumlah": 28214
+    },
+    {
+    "tahun": 2009,
+    "jenis_penyakit": "Radang Tenggorokan Dipteria",
+    "jumlah": 6
+    },
+    {
+    "tahun": 2010,
+    "jenis_penyakit": "Malaria",
+    "jumlah": 103
+    },
+    {
+    "tahun": 2010,
+    "jenis_penyakit": "Gastro Enteritis",
+    "jumlah": 184341
+    },
+    {
+    "tahun": 2010,
+    "jenis_penyakit": "Kholera/Cholera",
+    "jumlah": 0
+    },
+    {
+    "tahun": 2010,
+    "jenis_penyakit": "Kusta/Leprosy",
+    "jumlah": 263
+    },
+    {
+    "tahun": 2010,
+    "jenis_penyakit": "TBC/Tuberculosis",
+    "jumlah": 5788
+    },
+    {
+    "tahun": 2010,
+    "jenis_penyakit": "Demam Berdarah DHF",
+    "jumlah": 21151
+    },
+    {
+    "tahun": 2010,
+    "jenis_penyakit": "Radang Tenggorokan Dipteria",
+    "jumlah": 5
+    }
+    ]

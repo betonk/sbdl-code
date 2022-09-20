@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <h3>Data Tabel!</h3>
+        <table class="table table-bordered" id="dataTabel">
+            <tr>
+                <th>ada</th>
+                <th>ada</th>
+                <th>ada</th>
+            </tr>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script>
+        var isiData = [
+        {
+            "tahun": 2007,
+            "jenis_penyakit": "Malaria",
+            "jumlah": 77
+        },
+        {
+            "tahun": 2007,
+            "jenis_penyakit": "Gastro Enteritis",
+            "jumlah": 213247
+        },
+        {
+            "tahun": 2007,
+            "jenis_penyakit": "Kholera/Cholera",
+            "jumlah": 1028
+        },
+        {
+            "tahun": 2007,
+            "jenis_penyakit": "Kusta/Leprosy",
+            "jumlah": 489
+        },
+        {
+            "tahun": 2007,
+            "jenis_penyakit": "TBC/Tuberculosis",
+            "jumlah": 35240
+        },
+        {
+            "tahun": 2007,
+            "jenis_penyakit": "Demam Berdarah DHF",
+            "jumlah": 33828
+        },
+        {
+            "tahun": 2007,
+            "jenis_penyakit": "Radang Tenggorokan Dipteria",
+            "jumlah": 2
+        },
+        {
+            "tahun": 2008,
+            "jenis_penyakit": "Malaria",
+            "jumlah": 68
+        },
+        {
+            "tahun": 2008,
+            "jenis_penyakit": "Gastro Enteritis",
+            "jumlah": 9593
+        },
+        {
+            "tahun": 2008,
+            "jenis_penyakit": "Kholera/Cholera",
+            "jumlah": 0
+        },
+        {
+            "tahun": 2008,
+            "jenis_penyakit": "Kusta/Leprosy",
+            "jumlah": 901
+        },
+        {
+            "tahun": 2008,
+            "jenis_penyakit": "TBC/Tuberculosis",
+            "jumlah": 22506
+        },
+        {
+            "tahun": 2008,
+            "jenis_penyakit": "Demam Berdarah DHF",
+            "jumlah": 28373
+        },
+        {
+            "tahun": 2008,
+            "jenis_penyakit": "Radang Tenggorokan Dipteria",
+            "jumlah": 9
+        },
+        {
+            "tahun": 2009,
+            "jenis_penyakit": "Malaria",
+            "jumlah": 71
+        },
+        {
+            "tahun": 2009,
+            "jenis_penyakit": "Gastro Enteritis",
+            "jumlah": 10349
+        },
+        {
+            "tahun": 2009,
+            "jenis_penyakit": "Kholera/Cholera",
+            "jumlah": 0
+        },
+        {
+            "tahun": 2009,
+            "jenis_penyakit": "Kusta/Leprosy",
+            "jumlah": 0
+        },
+        {
+            "tahun": 2009,
+            "jenis_penyakit": "TBC/Tuberculosis",
+            "jumlah": 0
+        },
+        {
+            "tahun": 2009,
+            "jenis_penyakit": "Demam Berdarah DHF",
+            "jumlah": 28214
+        },
+        {
+            "tahun": 2009,
+            "jenis_penyakit": "Radang Tenggorokan Dipteria",
+            "jumlah": 6
+        },
+        {
+            "tahun": 2010,
+            "jenis_penyakit": "Malaria",
+            "jumlah": 103
+        },
+        {
+            "tahun": 2010,
+            "jenis_penyakit": "Gastro Enteritis",
+            "jumlah": 184341
+        },
+        {
+            "tahun": 2010,
+            "jenis_penyakit": "Kholera/Cholera",
+            "jumlah": 0
+        },
+        {
+            "tahun": 2010,
+            "jenis_penyakit": "Kusta/Leprosy",
+            "jumlah": 263
+        },
+        {
+            "tahun": 2010,
+            "jenis_penyakit": "TBC/Tuberculosis",
+            "jumlah": 5788
+        },
+        {
+            "tahun": 2010,
+            "jenis_penyakit": "Demam Berdarah DHF",
+            "jumlah": 21151
+        },
+        {
+            "tahun": 2010,
+            "jenis_penyakit": "Radang Tenggorokan Dipteria",
+            "jumlah": 5
+        },
+      ];
+
+    let tbl = document.getElementById("dataTabel"); // variabel untuk mewakili tabel <table>
+    let tblBody = document.createElement("tbody"); // buat element baru, bungkus tabel isi dengan tag <tbody>
+    
+    for (let i = 0; i < isiData.length; i++) {
+        // Perulangan array
+    let row = document.createElement("tr");
+        //selama perulangan tambah baris baru dan bungkus dengan tag <tr>
+    for (let prop in isiData[i]) {
+          // Setiap akhir <tr> baru <td>
+    let cell = document.createElement("td");
+          //Buat kolom atau sel di setiap baris <td>
+    let cellText = document.createTextNode(isiData[i][prop]);
+        cell.appendChild(cellText);
+        row.appendChild(cell);
+    }
+        tblBody.appendChild(row);
+    }
+        tbl.appendChild(tblBody);
+    </script>
+  </body>
+</html>
