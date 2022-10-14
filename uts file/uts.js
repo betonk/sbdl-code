@@ -9,6 +9,7 @@ fetch("./uts.json")
         dataFix(); // membuat function baru
     })
     .catch(function (err){
+        err = console.error();
         return false;
     })
 
