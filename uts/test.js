@@ -2,31 +2,35 @@ var array = [];
 
 fetch("./uts.json")
     .then(response => response.json())
-    .then(data => array = data)
+    .then(data => array = data.tani)
     .catch(error => console.error(error)
 )
 
 function tmdata(){
-    
+    var tbl,i,tr,td,dt,a
+    tbl = document.getElementById('Mytable')
+    if (tbl.childElementCount <= 1) {
+        for(i=0; i<array.length; i++){
+            tr = document.createElement('tr')
+            
+            td = document.createElement('td')
+            td.innerText = array[i].tahun
+            tr.appendChild(td)
+            tbl.appendChild(tr)
+
+            td = document.createElement('td')
+            td.innerText = array[i].jenis
+            tr.appendChild(td)
+            tbl.appendChild(tr)
+
+            td = document.createElement('td')
+            td.innerText = array[i].hasil
+            tr.appendChild(td)
+            tbl.appendChild(tr)
+        }
+    }
 }
 
-function dt_tahun(){
-    var input,fit,tbl,tr,td,i
-    input = document.getElementById('model')
-    fit = input.value.toUpperCase()
-    tbl = document.getElementById('Mytable')
-    for(i=0; i<array.length; i++){
-        tr = document.createElement('tr')
-        td = document.createElement('td')
-        td.innerText = array[i].tahun
-        if(td){
-            if(td.innerHTML.toUpperCase().indexOf(fit) > -1){
-                tr.style.display = "";
-            } else {
-                tr.style.display = "none";
-            }
-        }
-        td.appendChild(tr)
-        tr.appendChild(tbl)
-    }
+function dtTahun(){
+    
 }

@@ -16,20 +16,20 @@
     <h1>fathon</h1>
     <select name="select" id="model">
         <option value="">-- select --</option>
-        <option value="">Tahun</option>
+        <option value="tahun" onchange="dt_tahun()">Tahun</option>
         <option value="">Jenis</option>
         <option value="">Hasil</option>
     </select>
     <br>
     <br>
-    <button onclick="dt_tahun()">show data!</button>
+    <button onclick="tmdata()">show data!</button>
     <br>
     <br>
     <table id="Mytable" border="1">
         <tr>
-            <th>Tahun</th>
-            <th>Jenis</th>
-            <th>Hasil</th>
+            <th id="">Tahun</th>
+            <th id="">Jenis</th>
+            <th id="">Hasil</th>
         </tr>
     </table>
     <script src="test.js"></script>
