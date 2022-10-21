@@ -49,3 +49,6 @@ table, th, td {
 #tableku{
     display: none;
 }
+table th{
+    background-color: aquamarine;
+}

@@ -22,26 +22,29 @@ function fdata() {
   
     if (tbl.childElementCount <= 1) {
         for (i = 0; i < array.length; i++) {
-            baris = document.createElement("tr");
+            tr = document.createElement("tr");
     
-            isi = document.createElement("td");
-            isi.setAttribute("id", "idTahun"); //
-            isi.innerText = array[i].tahun;
-            baris.appendChild(isi);
+            td = document.createElement("td");
+            td.setAttribute("id", "idTahun"); //
+            td.innerText = array[i].tahun;
+            tr.appendChild(td);
     
-            isi = document.createElement("td");
-            isi.setAttribute("id", "idJenis"); //
-            isi.innerText = array[i].jenis;
-            baris.appendChild(isi);
+            td = document.createElement("td");
+            td.setAttribute("id", "idJenis"); //
+            td.innerText = array[i].jenis;
+            tr.appendChild(td);
     
-            isi = document.createElement("td");
-            isi.setAttribute("id", "idHasil"); //
-            isi.innerText = array[i].hasil;
-            baris.appendChild(isi);
-            tbl.appendChild(baris);
+            td = document.createElement("td");
+            td.setAttribute("id", "idHasil"); //
+            td.innerText = array[i].hasil;
+            tr.appendChild(td);
+            tbl.appendChild(tr);
         }
     }
-  
+}
+
+function Btnshow(){
+    fdata(h)
     var h = document.querySelectorAll(
         "#idTahun, #idJenis, #idHasil, #tahun, #jenis, #hasil"
         );
@@ -49,8 +52,7 @@ function fdata() {
         h[i].setAttribute("style", "display:revert;");
     }
 }
-
-function closeData(){
+function Btnclose(){
     var h = document.querySelectorAll(
         "#idTahun, #idJenis, #idHasil, #tahun, #jenis, #hasil"
         );

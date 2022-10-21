@@ -14,22 +14,28 @@
 </head>
 <body>
     <h1>fathon</h1>
-    <select name="select" id="model">
+    <!-- <select name="select" id="model">
         <option value="">-- select --</option>
-        <option value="tahun" onchange="dt_tahun()">Tahun</option>
-        <option value="">Jenis</option>
-        <option value="">Hasil</option>
+        <option value="tahun">Tahun</option>
+        <option value="jenis">Jenis</option>
+        <option value="hasil">Hasil</option>
+    </select> -->
+    <select name="select" id="model" onchange="xfilter()">
+        <option value="">-- select --</option>
+        <option value="padi">padi</option>
+        <option value="jagung">jagung</option>
     </select>
     <br>
     <br>
-    <button onclick="tmdata()">show data!</button>
+    <button onclick="btnshow()">show data!</button>
+    <button onclick="btnclose()">close data!</button>
     <br>
     <br>
     <table id="Mytable" border="1">
         <tr>
-            <th id="">Tahun</th>
-            <th id="">Jenis</th>
-            <th id="">Hasil</th>
+            <th id="idTahun">Tahun</th>
+            <th id="idJenis">Jenis</th>
+            <th id="idHasil">Hasil</th>
         </tr>
     </table>
     <script src="test.js"></script>
