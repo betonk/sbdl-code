@@ -44,20 +44,20 @@ function fdata() {
 }
 
 function Btnshow(){
-    fdata(h)
-    var h = document.querySelectorAll(
+    fdata(w)
+    var w = document.querySelectorAll(
         "#idTahun, #idJenis, #idHasil, #tahun, #jenis, #hasil"
         );
-    for (var i = 0; i < h.length; i++) {
-        h[i].setAttribute("style", "display:revert;");
+    for (var i = 0; i < w.length; i++) {
+        w[i].setAttribute("style", "display:revert;");
     }
 }
 function Btnclose(){
-    var h = document.querySelectorAll(
+    var w = document.querySelectorAll(
         "#idTahun, #idJenis, #idHasil, #tahun, #jenis, #hasil"
         );
-    for (var i = 0; i < h.length; i++) {
-        h[i].setAttribute("style", "display:none;");
+    for (var i = 0; i < w.length; i++) {
+        w[i].setAttribute("style", "display:none;");
     }
 }
 
@@ -74,39 +74,39 @@ function remove_dup(array){
 }
 
 function tahunData() {
-    var e = document.querySelectorAll("#idTahun")
-        for (var i = 0; i < e.length; i++) {
-            e[i].setAttribute("style", "display:revert;")
+    var piri = document.querySelectorAll("#idTahun")
+        for (var i = 0; i < piri.length; i++) {
+            piri[i].setAttribute("style", "display:revert;")
         }
-    var h = document.querySelectorAll("#idJenis, #idHasil");
-        for (var i = 0; i < h.length; i++) {
-          h[i].setAttribute("style", "display:none;");
+    var high = document.querySelectorAll("#idJenis, #idHasil");
+        for (var i = 0; i < high.length; i++) {
+            high[i].setAttribute("style", "display:none;");
         }
     document.getElementById("tahun").style.display = "revert";
     document.getElementById("jenis").style.display = "none";
     document.getElementById("hasil").style.display = "none";
 }
 function jenisData() {
-    var e = document.querySelectorAll("#idJenis");
-    for (var i = 0; i < e.length; i++) {
-      e[i].setAttribute("style", "display:revert;");
+    var piri = document.querySelectorAll("#idJenis");
+    for (var i = 0; i < piri.length; i++) {
+        piri[i].setAttribute("style", "display:revert;");
     }
-    var h = document.querySelectorAll("#idTahun, #idHasil");
-    for (var i = 0; i < h.length; i++) {
-      h[i].setAttribute("style", "display:none;");
+    var high = document.querySelectorAll("#idTahun, #idHasil");
+    for (var i = 0; i < high.length; i++) {
+        high[i].setAttribute("style", "display:none;");
     }
     document.getElementById("tahun").style.display = "none";
     document.getElementById("jenis").style.display = "revert";
     document.getElementById("hasil").style.display = "none";
 }
 function hasilData() {
-    var e = document.querySelectorAll("#idHasil");
-    for (var i = 0; i < e.length; i++) {
-      e[i].setAttribute("style", "display:revert;");
+    var piri = document.querySelectorAll("#idHasil");
+    for (var i = 0; i < piri.length; i++) {
+        piri[i].setAttribute("style", "display:revert;");
     }
-    var h = document.querySelectorAll("#idTahun, #idJenis");
-    for (var i = 0; i < h.length; i++) {
-      h[i].setAttribute("style", "display:none;");
+    var high = document.querySelectorAll("#idTahun, #idJenis");
+    for (var i = 0; i < high.length; i++) {
+        high[i].setAttribute("style", "display:none;");
     }
     document.getElementById("tahun").style.display = "none";
     document.getElementById("jenis").style.display = "none";
