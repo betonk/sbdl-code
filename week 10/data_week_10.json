@@ -1,0 +1,138 @@
+[{
+    "wilayah":"Jakarta Pusat",
+    "peran_jalan":"Toll",
+    "panjang":2500,
+    "luas":60000,
+    "kewenangan":"Nasional/ PUPR"
+},
+{
+    "wilayah":"Jakarta Pusat",
+    "peran_jalan":"Arteri Primer",
+    "panjang":0,
+    "luas":0,
+    "kewenangan":"Nasional/ PUPR"
+},
+{
+    "wilayah":"Jakarta Pusat",
+    "peran_jalan":"Kolektor Primer",
+    "panjang":0,
+    "luas":0,
+    "kewenangan":"Nasional/ PUPR"
+},
+{
+    "wilayah":"Jakarta Pusat",
+    "peran_jalan":"Arteri Sekunder",
+    "panjang":94382,
+    "luas":2169783,
+    "kewenangan":"Provinsi DKI Jakarta"
+},
+{
+    "wilayah":"Jakarta Pusat",
+    "peran_jalan":"Kolektor Sekunder",
+    "panjang":149431,
+    "luas":1553683,
+    "kewenangan":"Provinsi DKI Jakarta"
+},
+{
+    "wilayah":"Jakarta Pusat",
+    "peran_jalan":"Lokal",
+    "panjang":448344,
+    "luas":2236082,
+    "kewenangan":"Provinsi DKI Jakarta"
+},{
+    "wilayah":"Jakarta Utara",
+    "peran_jalan":"Toll",
+    "panjang":46100,
+    "luas":1075200,
+    "kewenangan":"Nasional/ PUPR"
+},
+{
+    "wilayah":"Jakarta Utara",
+    "peran_jalan":"Arteri Primer",
+    "panjang":11917,
+    "luas":194062,
+    "kewenangan":"Nasional/ PUPR"
+},
+{
+    "wilayah":"Jakarta Utara",
+    "peran_jalan":"Kolektor Primer",
+    "panjang":0,
+    "luas":0,
+    "kewenangan":"Nasional/ PUPR"
+},
+{
+    "wilayah":"Jakarta Utara",
+    "peran_jalan":"Arteri Sekunder",
+    "panjang":124571,
+    "luas":1892176,
+    "kewenangan":"Provinsi DKI Jakarta"
+},{
+    "wilayah":"Jakarta Utara",
+    "peran_jalan":"Kolektor Sekunder",
+    "panjang":110876,"luas":904542,
+    "kewenangan":"Provinsi DKI Jakarta"
+},
+{
+    "wilayah":"Jakarta Utara",
+    "peran_jalan":"Lokal",
+    "panjang":853213,
+    "luas":4407372,
+    "kewenangan":"Provinsi DKI Jakarta"
+},{
+    "wilayah":"Jakarta Barat",
+    "peran_jalan":"Toll",
+    "panjang":30500,
+    "luas":732000,
+    "kewenangan":"Nasional/ PUPR"
+},{
+    "wilayah":"Jakarta Barat",
+    "peran_jalan":"Arteri Primer",
+    "panjang":11972,
+    "luas":234416,
+    "kewenangan":"Nasional/ PUPR"
+},
+{
+    "wilayah":"Jakarta Barat","peran_jalan":"Kolektor Primer","panjang":0,"luas":0,"kewenangan":"Nasional/ PUPR"},
+{
+        "wilayah":"Jakarta Barat","peran_jalan":"Arteri Sekunder","panjang":126924,"luas":1731012,"kewenangan":"Provinsi DKI Jakarta"},
+{
+        "wilayah":"Jakarta Barat","peran_jalan":"Kolektor Sekunder","panjang":126924,"luas":1731012,"kewenangan":"Provinsi DKI Jakarta"},
+    {
+        "wilayah":"Jakarta Barat","peran_jalan":"Lokal","panjang":891587,"luas":4178964,"kewenangan":"Provinsi DKI Jakarta"},
+    {
+        "wilayah":"Jakarta Selatan","peran_jalan":"Toll","panjang":28800,"luas":691200,"kewenangan":"Nasional/ PUPR"},
+    {
+        "wilayah":"Jakarta Selatan","peran_jalan":"Arteri Primer","panjang":11501,"luas":161014,"kewenangan":"Nasional/ PUPR"},
+    {
+        "wilayah":"Jakarta Selatan","peran_jalan":"Kolektor Primer","panjang":2160,"luas":31540,"kewenangan":"Nasional/ PUPR"},
+    {
+        "wilayah":"Jakarta Selatan","peran_jalan":"Arteri Sekunder","panjang":169323,"luas":2569507,"kewenangan":"Provinsi DKI Jakarta"},
+    {
+        "wilayah":"Jakarta Selatan","peran_jalan":"Kolektor Sekunder","panjang":193078,"luas":1552427,"kewenangan":"Provinsi DKI Jakarta"},
+    {
+        "wilayah":"Jakarta Selatan","peran_jalan":"Lokal","panjang":1623756,"luas":7638183,"kewenangan":"Provinsi DKI Jakarta"},
+    {
+        "wilayah":"Jakarta Timur","peran_jalan":"Toll","panjang":52450,"luas":1451550,"kewenangan":"Nasional/ PUPR"},
+    {
+        "wilayah":"Jakarta Timur","peran_jalan":"Arteri Primer","panjang":22306,"luas":367404,"kewenangan":"Nasional/ PUPR"},
+    {
+        "wilayah":"Jakarta Timur","peran_jalan":"Kolektor Primer","panjang":0,"luas":0,"kewenangan":"Nasional/ PUPR"},
+    {
+        "wilayah":"Jakarta Timur","peran_jalan":"Arteri Sekunder","panjang":179261,"luas":2817666,"kewenangan":"Provinsi DKI Jakarta"},
+    {
+        "wilayah":"Jakarta Timur","peran_jalan":"Kolektor Sekunder","panjang":183767,"luas":1525165,"kewenangan":"Provinsi DKI Jakarta"},
+    {
+        "wilayah":"Jakarta Timur","peran_jalan":"Lokal","panjang":1132495,"luas":5086234,"kewenangan":"Provinsi DKI Jakarta"},
+    {
+        "wilayah":"Total DKI Jakarta","peran_jalan":"Toll","panjang":160350,"luas":4009950,"kewenangan":"Nasional/ PUPR"},
+    {
+        "wilayah":"Total DKI Jakarta","peran_jalan":"Arteri Primer","panjang":57696,"luas":956896,"kewenangan":"Nasional/ PUPR"},
+    {
+        "wilayah":"Total DKI Jakarta","peran_jalan":"Kolektor Primer","panjang":2160,"luas":31540,"kewenangan":"Nasional/ PUPR"},
+    {
+        "wilayah":"Total DKI Jakarta","peran_jalan":"Arteri Sekunder","panjang":694460,"luas":11180145,"kewenangan":"Provinsi DKI Jakarta"},
+    {
+        "wilayah":"Total DKI Jakarta","peran_jalan":"Kolektor Sekunder","panjang":788618,"luas":6701165,"kewenangan":"Provinsi DKI Jakarta"},
+    {
+        "wilayah":"Total DKI Jakarta","peran_jalan":"Lokal","panjang":4949394,"luas":23546835,"kewenangan":"Provinsi DKI Jakarta"}
+]
